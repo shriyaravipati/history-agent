@@ -1,0 +1,16 @@
+{
+  "title": "The Postal Worker Who Mapped Cholera",
+  "date": "August 31, 1854",
+  "location": "Soho, London, England",
+  "era": "Modern",
+  "topic_tags": [
+    "epidemiology",
+    "data visualization",
+    "public health"
+  ],
+  "event_summary": "During a catastrophic cholera outbreak in London's Soho district, physician John Snow partnered with Reverend Henry Whitehead \u2014 a local curate who knew every family on every street \u2014 to conduct door-to-door interviews tracing each death back to a single contaminated water pump on Broad Street. On September 7, 1854, Snow persuaded the Board of Guardians of St. James's Parish to remove the pump handle, and the outbreak collapsed. What is almost never told is that it was Whitehead, not Snow, who provided the crucial case that sealed the argument: he traced the index case to a mother at 40 Broad Street who had washed her sick infant's soiled diapers into a cesspool just three feet from the well.",
+  "why_forgotten": "Snow gets occasional credit in medical circles, but Whitehead's indispensable role \u2014 and the fact that the parish board nearly refused to act because miasma theory dominated elite opinion \u2014 is rarely taught. The story was also politically inconvenient: it exposed London's water companies as complicit in mass death, and authorities quietly buried the full parliamentary testimony. The episode fell outside both military and political history, making it invisible in standard curricula.",
+  "why_it_matters": "This single investigation invented modern epidemiology, contact tracing, and the use of geographic data mapping to fight disease \u2014 methods deployed in every pandemic since, including COVID-19. Snow and Whitehead's work also forced the complete reconstruction of London's sewer system under Joseph Bazalgette, a template copied by cities worldwide, arguably saving more lives than any medical discovery in history. The Broad Street pump episode remains the founding case study of public health infrastructure as a human right.",
+  "entry_number": 7,
+  "date_added": "2026-06-24"
+}
