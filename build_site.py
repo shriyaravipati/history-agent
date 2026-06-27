@@ -1,4 +1,5 @@
 import json
+import html
 from pathlib import Path
 
 entries = []
@@ -6,7 +7,8 @@ for f in sorted(Path("entries").glob("*.json"), reverse=True):
     with open(f) as fh:
         entries.append(json.load(fh))
 
-entries_json = json.dumps(entries, ensure_ascii=False)
+import html
+entries_json = json.dumps(entries, ensure_ascii=True)
 
 html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -400,7 +402,7 @@ function renderList(entries) {{
 
   list.innerHTML = entries.map((e) => `
     <div class="entry-item ${{selectedIndex === e.entry_number ? 'selected' : ''}}"
-         onclick="showDetail(${{JSON.stringify(e).replace(/'/g, '&apos;')}}, ${{e.entry_number}})">
+         onclick="showDetail(ALL_ENTRIES.find(x => x.entry_number === ${{e.entry_number}}), ${{e.entry_number}})">
       <div class="entry-num">#${{String(e.entry_number).padStart(3,'0')}} &nbsp;·&nbsp; ${{e.date_added || ''}}</div>
       <div class="entry-title">${{e.title}}</div>
       <div class="entry-meta">
