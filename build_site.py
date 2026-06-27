@@ -1,5 +1,4 @@
 import json
-import html
 from pathlib import Path
 
 entries = []
@@ -7,10 +6,12 @@ for f in sorted(Path("entries").glob("*.json"), reverse=True):
     with open(f) as fh:
         entries.append(json.load(fh))
 
-import html
-entries_json = json.dumps(entries, ensure_ascii=True).replace('</script>', '<\\/script>')
+# Save entries as separate JSON file
+Path("docs").mkdir(exist_ok=True)
+with open("docs/entries.json", "w", encoding="utf-8") as f:
+    json.dump(entries, f, ensure_ascii=True)
 
-html = f"""<!DOCTYPE html>
+html = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -19,7 +20,7 @@ html = f"""<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-  :root {{
+  :root {
     --ink:       #1a1714;
     --ink-soft:  #4a4540;
     --ink-mute:  #9a9088;
@@ -30,24 +31,24 @@ html = f"""<!DOCTYPE html>
     --red-light: #f0e4e7;
     --serif:     'Playfair Display', Georgia, serif;
     --sans:      'Source Sans 3', system-ui, sans-serif;
-  }}
+  }
 
-  *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body {{
+  body {
     background: var(--paper);
     color: var(--ink);
     font-family: var(--sans);
     font-weight: 300;
     min-height: 100vh;
-  }}
+  }
 
-  .masthead {{
+  .masthead {
     border-bottom: 3px double var(--ink);
     padding: 2.5rem 2rem 1.5rem;
     text-align: center;
-  }}
-  .masthead-eyebrow {{
+  }
+  .masthead-eyebrow {
     font-family: var(--sans);
     font-size: 0.65rem;
     font-weight: 600;
@@ -55,22 +56,22 @@ html = f"""<!DOCTYPE html>
     text-transform: uppercase;
     color: var(--ink-mute);
     margin-bottom: 0.6rem;
-  }}
-  .masthead h1 {{
+  }
+  .masthead h1 {
     font-family: var(--serif);
     font-size: clamp(2.4rem, 6vw, 4rem);
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.02em;
-  }}
-  .masthead-sub {{
+  }
+  .masthead-sub {
     font-family: var(--serif);
     font-style: italic;
     font-size: 1rem;
     color: var(--ink-soft);
     margin-top: 0.5rem;
-  }}
-  .masthead-count {{
+  }
+  .masthead-count {
     display: inline-block;
     margin-top: 1.2rem;
     font-size: 0.7rem;
@@ -80,9 +81,9 @@ html = f"""<!DOCTYPE html>
     color: var(--red);
     border: 1px solid var(--red);
     padding: 0.3rem 0.8rem;
-  }}
+  }
 
-  .controls {{
+  .controls {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
@@ -90,13 +91,13 @@ html = f"""<!DOCTYPE html>
     padding: 1rem 2rem;
     border-bottom: 1px solid var(--rule);
     background: var(--paper-warm);
-  }}
-  .search-wrap {{
+  }
+  .search-wrap {
     flex: 1;
     min-width: 180px;
     position: relative;
-  }}
-  .search-wrap input {{
+  }
+  .search-wrap input {
     width: 100%;
     font-family: var(--sans);
     font-size: 0.85rem;
@@ -105,9 +106,9 @@ html = f"""<!DOCTYPE html>
     background: var(--paper);
     color: var(--ink);
     outline: none;
-  }}
-  .search-wrap input:focus {{ border-color: var(--ink-soft); }}
-  .search-icon {{
+  }
+  .search-wrap input:focus { border-color: var(--ink-soft); }
+  .search-icon {
     position: absolute;
     left: 0.6rem;
     top: 50%;
@@ -115,13 +116,13 @@ html = f"""<!DOCTYPE html>
     color: var(--ink-mute);
     font-size: 0.9rem;
     pointer-events: none;
-  }}
-  .filter-group {{
+  }
+  .filter-group {
     display: flex;
     gap: 0.4rem;
     flex-wrap: wrap;
-  }}
-  .filter-btn {{
+  }
+  .filter-btn {
     font-family: var(--sans);
     font-size: 0.7rem;
     font-weight: 600;
@@ -133,13 +134,13 @@ html = f"""<!DOCTYPE html>
     color: var(--ink-soft);
     cursor: pointer;
     transition: all 0.15s;
-  }}
-  .filter-btn:hover, .filter-btn.active {{
+  }
+  .filter-btn:hover, .filter-btn.active {
     background: var(--ink);
     color: var(--paper);
     border-color: var(--ink);
-  }}
-  .sort-select {{
+  }
+  .sort-select {
     font-family: var(--sans);
     font-size: 0.75rem;
     padding: 0.4rem 0.6rem;
@@ -148,51 +149,51 @@ html = f"""<!DOCTYPE html>
     color: var(--ink);
     cursor: pointer;
     outline: none;
-  }}
+  }
 
-  .layout {{
+  .layout {
     display: grid;
     grid-template-columns: 1fr 360px;
     min-height: calc(100vh - 200px);
-  }}
+  }
 
-  .entry-list {{
+  .entry-list {
     border-right: 1px solid var(--rule);
     overflow-y: auto;
-  }}
-  .entry-item {{
+  }
+  .entry-item {
     padding: 1.25rem 1.5rem;
     border-bottom: 1px solid var(--rule);
     cursor: pointer;
     transition: background 0.1s;
-  }}
-  .entry-item:hover {{ background: var(--paper-warm); }}
-  .entry-item.selected {{ background: var(--red-light); border-left: 3px solid var(--red); }}
-  .entry-num {{
+  }
+  .entry-item:hover { background: var(--paper-warm); }
+  .entry-item.selected { background: var(--red-light); border-left: 3px solid var(--red); }
+  .entry-num {
     font-size: 0.65rem;
     font-weight: 600;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--ink-mute);
-  }}
-  .entry-title {{
+  }
+  .entry-title {
     font-family: var(--serif);
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.3;
     margin: 0.2rem 0;
-  }}
-  .entry-meta {{
+  }
+  .entry-meta {
     font-size: 0.72rem;
     color: var(--ink-mute);
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
     margin-top: 0.25rem;
-  }}
-  .entry-meta span::before {{ content: '·'; margin-right: 0.4rem; }}
-  .entry-meta span:first-child::before {{ content: ''; margin-right: 0; }}
-  .tag {{
+  }
+  .entry-meta span::before { content: '·'; margin-right: 0.4rem; }
+  .entry-meta span:first-child::before { content: ''; margin-right: 0; }
+  .tag {
     display: inline-block;
     font-size: 0.6rem;
     font-weight: 600;
@@ -203,16 +204,16 @@ html = f"""<!DOCTYPE html>
     color: var(--ink-soft);
     margin-right: 0.25rem;
     margin-top: 0.3rem;
-  }}
+  }
 
-  .detail-pane {{
+  .detail-pane {
     padding: 2rem 1.75rem;
     overflow-y: auto;
     position: sticky;
     top: 0;
     max-height: 100vh;
-  }}
-  .detail-empty {{
+  }
+  .detail-empty {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,31 +221,31 @@ html = f"""<!DOCTYPE html>
     height: 60%;
     text-align: center;
     color: var(--ink-mute);
-  }}
-  .detail-empty-glyph {{
+  }
+  .detail-empty-glyph {
     font-family: var(--serif);
     font-size: 4rem;
     line-height: 1;
     margin-bottom: 1rem;
     opacity: 0.3;
-  }}
-  .detail-empty p {{ font-style: italic; font-size: 0.9rem; }}
-  .detail-eyebrow {{
+  }
+  .detail-empty p { font-style: italic; font-size: 0.9rem; }
+  .detail-eyebrow {
     font-size: 0.65rem;
     font-weight: 600;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--red);
     margin-bottom: 0.5rem;
-  }}
-  .detail-title {{
+  }
+  .detail-title {
     font-family: var(--serif);
     font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 0.75rem;
-  }}
-  .detail-dateline {{
+  }
+  .detail-dateline {
     font-family: var(--serif);
     font-style: italic;
     font-size: 0.85rem;
@@ -252,8 +253,8 @@ html = f"""<!DOCTYPE html>
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--rule);
     margin-bottom: 1.25rem;
-  }}
-  .detail-section-label {{
+  }
+  .detail-section-label {
     font-size: 0.6rem;
     font-weight: 600;
     letter-spacing: 0.2em;
@@ -261,28 +262,28 @@ html = f"""<!DOCTYPE html>
     color: var(--ink-mute);
     margin-bottom: 0.4rem;
     margin-top: 1.25rem;
-  }}
-  .detail-section-label:first-of-type {{ margin-top: 0; }}
-  .detail-text {{
+  }
+  .detail-section-label:first-of-type { margin-top: 0; }
+  .detail-text {
     font-size: 0.9rem;
     line-height: 1.75;
     color: var(--ink-soft);
-  }}
-  .detail-tags {{
+  }
+  .detail-tags {
     margin-top: 1.5rem;
     padding-top: 1rem;
     border-top: 1px solid var(--rule);
-  }}
-  .no-results {{
+  }
+  .no-results {
     padding: 3rem 2rem;
     text-align: center;
     color: var(--ink-mute);
     font-style: italic;
-  }}
+  }
 
-  @media (max-width: 700px) {{
-    .layout {{ grid-template-columns: 1fr; }}
-    .detail-pane {{
+  @media (max-width: 700px) {
+    .layout { grid-template-columns: 1fr; }
+    .detail-pane {
       position: fixed;
       inset: 0;
       background: var(--paper);
@@ -291,9 +292,9 @@ html = f"""<!DOCTYPE html>
       transition: transform 0.25s ease;
       padding: 1.5rem 1.25rem;
       max-height: 100vh;
-    }}
-    .detail-pane.open {{ transform: translateX(0); }}
-    .detail-close {{
+    }
+    .detail-pane.open { transform: translateX(0); }
+    .detail-close {
       display: flex;
       align-items: center;
       gap: 0.5rem;
@@ -307,10 +308,10 @@ html = f"""<!DOCTYPE html>
       cursor: pointer;
       padding: 0;
       margin-bottom: 1.5rem;
-    }}
-  }}
-  @media (min-width: 701px) {{ .detail-close {{ display: none; }} }}
-  @media (prefers-reduced-motion: reduce) {{ * {{ transition: none !important; }} }}
+    }
+  }
+  @media (min-width: 701px) { .detail-close { display: none; } }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
@@ -327,7 +328,7 @@ html = f"""<!DOCTYPE html>
     <span class="search-icon">⌕</span>
     <input type="text" id="search" placeholder="Search events, places, topics…" oninput="applyFilters()">
   </div>
-  <div class="filter-group" id="era-filters">
+  <div class="filter-group">
     <button class="filter-btn active" onclick="setEra('all', this)">All eras</button>
     <button class="filter-btn" onclick="setEra('Ancient', this)">Ancient</button>
     <button class="filter-btn" onclick="setEra('Medieval', this)">Medieval</button>
@@ -356,23 +357,29 @@ html = f"""<!DOCTYPE html>
 </div>
 
 <script>
-const ALL_ENTRIES = {entries_json};
-
+let ALL_ENTRIES = [];
 let currentEra = 'all';
 let selectedIndex = null;
 
-function setEra(era, btn) {{
+fetch('entries.json')
+  .then(r => r.json())
+  .then(data => {
+    ALL_ENTRIES = data;
+    applyFilters();
+  });
+
+function setEra(era, btn) {
   currentEra = era;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   applyFilters();
-}}
+}
 
-function applyFilters() {{
+function applyFilters() {
   const q = document.getElementById('search').value.toLowerCase();
   const sort = document.getElementById('sort-select').value;
 
-  let filtered = ALL_ENTRIES.filter(e => {{
+  let filtered = ALL_ENTRIES.filter(e => {
     const matchEra = currentEra === 'all' || e.era === currentEra;
     const matchQ = !q ||
       e.title.toLowerCase().includes(q) ||
@@ -380,75 +387,79 @@ function applyFilters() {{
       e.event_summary.toLowerCase().includes(q) ||
       (e.topic_tags || []).some(t => t.toLowerCase().includes(q));
     return matchEra && matchQ;
-  }});
+  });
 
   if (sort === 'oldest') filtered = [...filtered].reverse();
   else if (sort === 'az') filtered = [...filtered].sort((a,b) => a.title.localeCompare(b.title));
 
   renderList(filtered);
-}}
+}
 
-function renderList(entries) {{
+function renderList(entries) {
   const list = document.getElementById('entry-list');
   document.getElementById('entry-count').textContent =
     ALL_ENTRIES.length === 1
       ? '1 entry in the archive'
       : ALL_ENTRIES.length + ' entries in the archive';
 
-  if (!entries.length) {{
+  if (!entries.length) {
     list.innerHTML = '<p class="no-results">No entries match your search.</p>';
     return;
-  }}
+  }
 
-  list.innerHTML = entries.map((e) => `
-    <div class="entry-item ${{selectedIndex === e.entry_number ? 'selected' : ''}}"
-         onclick="showDetail(ALL_ENTRIES.find(x => x.entry_number === ${{e.entry_number}}), ${{e.entry_number}})">
-      <div class="entry-num">#${{String(e.entry_number).padStart(3,'0')}} &nbsp;·&nbsp; ${{e.date_added || ''}}</div>
-      <div class="entry-title">${{e.title}}</div>
+  list.innerHTML = entries.map(e => `
+    <div class="entry-item" data-num="${e.entry_number}">
+      <div class="entry-num">#${String(e.entry_number).padStart(3,'0')} &nbsp;·&nbsp; ${e.date_added || ''}</div>
+      <div class="entry-title">${e.title}</div>
       <div class="entry-meta">
-        <span>${{e.date}}</span>
-        <span>${{e.location}}</span>
-        <span>${{e.era}}</span>
+        <span>${e.date}</span>
+        <span>${e.location}</span>
+        <span>${e.era}</span>
       </div>
-      <div>${{(e.topic_tags || []).map(t => `<span class="tag">${{t}}</span>`).join('')}}</div>
+      <div>${(e.topic_tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
     </div>
   `).join('');
-}}
 
-function showDetail(entry, num) {{
+  document.querySelectorAll('.entry-item').forEach(el => {
+    el.addEventListener('click', () => {
+      const num = parseInt(el.dataset.num);
+      const entry = ALL_ENTRIES.find(e => e.entry_number === num);
+      showDetail(entry, num);
+    });
+  });
+}
+
+function showDetail(entry, num) {
   selectedIndex = num;
   document.querySelectorAll('.entry-item').forEach(el => el.classList.remove('selected'));
-  event.currentTarget.classList.add('selected');
+  document.querySelector(`.entry-item[data-num="${num}"]`).classList.add('selected');
 
   document.getElementById('detail-content').innerHTML = `
-    <div class="detail-eyebrow">Entry #${{String(entry.entry_number).padStart(3,'0')}}</div>
-    <h2 class="detail-title">${{entry.title}}</h2>
-    <p class="detail-dateline">${{entry.date}} &nbsp;·&nbsp; ${{entry.location}} &nbsp;·&nbsp; ${{entry.era}}</p>
+    <div class="detail-eyebrow">Entry #${String(entry.entry_number).padStart(3,'0')}</div>
+    <h2 class="detail-title">${entry.title}</h2>
+    <p class="detail-dateline">${entry.date} &nbsp;·&nbsp; ${entry.location} &nbsp;·&nbsp; ${entry.era}</p>
     <p class="detail-section-label">What happened</p>
-    <p class="detail-text">${{entry.event_summary}}</p>
+    <p class="detail-text">${entry.event_summary}</p>
     <p class="detail-section-label">Why it was forgotten</p>
-    <p class="detail-text">${{entry.why_forgotten}}</p>
+    <p class="detail-text">${entry.why_forgotten}</p>
     <p class="detail-section-label">Why it actually matters</p>
-    <p class="detail-text">${{entry.why_it_matters}}</p>
+    <p class="detail-text">${entry.why_it_matters}</p>
     <div class="detail-tags">
-      ${{(entry.topic_tags || []).map(t => `<span class="tag">${{t}}</span>`).join('')}}
+      ${(entry.topic_tags || []).map(t => `<span class="tag">${t}</span>`).join('')}
     </div>
   `;
 
   document.getElementById('detail-pane').classList.add('open');
-}}
+}
 
-function closeDetail() {{
+function closeDetail() {
   document.getElementById('detail-pane').classList.remove('open');
-}}
-
-applyFilters();
+}
 </script>
 </body>
 </html>"""
 
-Path("docs").mkdir(exist_ok=True)
 with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(html)
 
-print(f"✓ Site built with {{len(entries)}} entries → docs/index.html")
+print(f"✓ Site built with {len(entries)} entries → docs/index.html + docs/entries.json")
