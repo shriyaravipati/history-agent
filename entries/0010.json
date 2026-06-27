@@ -1,0 +1,16 @@
+{
+  "title": "The Indian Mathematician Who Invented Zero",
+  "date": "August 25, 628 AD",
+  "location": "Ujjain, India",
+  "era": "Medieval",
+  "topic_tags": [
+    "mathematics",
+    "intellectual history",
+    "India"
+  ],
+  "event_summary": "In 628 AD, the mathematician and astronomer Brahmagupta completed his treatise Br\u0101hmasphu\u1e6dasiddh\u0101nta at the astronomical center of Ujjain, in which he became the first person in recorded history to formally define zero as a number and lay out arithmetic rules for its use \u2014 including operations with negative numbers. He described zero not as a mere placeholder but as the result of subtracting a number from itself, and systematically defined how to add, subtract, and multiply with it. This single intellectual leap transformed mathematics from a descriptive tool into an abstract symbolic language capable of infinite expansion.",
+  "why_forgotten": "Western mathematical histories long credited the concept of zero vaguely to 'Arab mathematicians' or even to European adoption, obscuring its specifically Indian origin. Colonial-era historiography systematically minimized South Asian intellectual contributions, preferring a narrative in which Greek and later European thinkers drove all foundational advances. Brahmagupta's name remains virtually unknown outside specialist circles, even though his work underpins every calculation performed on Earth today.",
+  "why_it_matters": "Without Brahmagupta's formalization of zero, the entire architecture of modern mathematics, computing, physics, and engineering would not exist \u2014 binary code, calculus, algebra, and digital technology all depend on zero as a defined number. His rules for negative numbers also laid the groundwork for concepts like debt, temperature scales, and coordinate geometry. Every time a computer processes a single bit of data, it silently relies on a framework first articulated by a seventh-century Indian scholar in a provincial court.",
+  "entry_number": 10,
+  "date_added": "2026-06-27"
+}
