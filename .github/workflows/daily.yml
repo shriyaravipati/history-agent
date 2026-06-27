@@ -43,7 +43,10 @@ jobs:
           git commit -m "Entry $(cat entry_count.txt): $(tail -1 seen_events.txt)"
           git push
 
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        with:
-          folder: docs
