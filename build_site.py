@@ -8,7 +8,7 @@ for f in sorted(Path("entries").glob("*.json"), reverse=True):
         entries.append(json.load(fh))
 
 import html
-entries_json = json.dumps(entries, ensure_ascii=True)
+entries_json = json.dumps(entries, ensure_ascii=True).replace('</script>', '<\\/script>')
 
 html = f"""<!DOCTYPE html>
 <html lang="en">
