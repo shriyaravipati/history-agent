@@ -1,0 +1,16 @@
+{
+  "title": "The Clerk Who Stopped Nuclear War",
+  "date": "September 26, 1983",
+  "location": "Serpukhov-15, Soviet Union (near Moscow)",
+  "era": "Contemporary",
+  "topic_tags": [
+    "nuclear_war",
+    "Cold_War",
+    "human_judgment"
+  ],
+  "event_summary": "Soviet Lieutenant Colonel Stanislav Petrov was the duty officer at Serpukhov-15, a secret bunker monitoring the USSR's early-warning satellite system, when the system reported five incoming American ICBMs. With minutes to decide, Petrov judged the alarm to be a malfunction rather than a genuine first strike, defying protocol that demanded he immediately report it up the chain of command \u2014 a report that almost certainly would have triggered a full Soviet nuclear counterattack. He was right: sunlight reflecting off high-altitude clouds above North Dakota had fooled the satellites.",
+  "why_forgotten": "The Soviet military buried the incident out of embarrassment over the satellite system's catastrophic flaw and punished Petrov with reassignment rather than honoring him. The story only emerged publicly in 1998 when a retired Russian general mentioned it in his memoirs, and even then it received remarkably little sustained attention outside specialist circles, partly because no government wanted to advertise how close automated systems had come to ending civilization.",
+  "why_it_matters": "Petrov's decision is arguably the single most consequential act of individual human judgment in the nuclear age, demonstrating that automated early-warning systems can produce false positives with extinction-level consequences. Today, as nations develop AI-driven missile defense and launch-on-warning doctrines, his story is cited by arms control advocates as the definitive case for keeping human decision-makers in the nuclear command loop \u2014 a debate that remains unresolved and increasingly urgent.",
+  "entry_number": 24,
+  "date_added": "2026-07-07"
+}
