@@ -1,0 +1,16 @@
+{
+  "title": "The Bureaucrat Who Invented Global Time",
+  "date": "October 1884",
+  "location": "Washington, D.C., United States (proposed by Sandford Fleming of Canada)",
+  "era": "Modern",
+  "topic_tags": [
+    "timekeeping",
+    "infrastructure",
+    "globalization"
+  ],
+  "event_summary": "At the International Meridian Conference of 1884, Canadian railway engineer Sandford Fleming successfully lobbied delegates from 25 nations to adopt a system of worldwide standard time zones, replacing thousands of conflicting local solar times. Fleming, a Scottish-born surveyor who had missed a train in Ireland in 1876 because a printed schedule listed p.m. instead of a.m., spent eight years campaigning obsessively for a universal 24-hour clock anchored to a prime meridian. Despite fierce resistance from France, which abstained from the vote and refused to adopt Greenwich Mean Time for another 27 years, the conference's resolution laid the foundation for every synchronized system the modern world depends on.",
+  "why_forgotten": "Fleming was neither a politician nor a scientist but a mid-level railway planner, and credit was diffused among diplomats and astronomers who attended the conference. Britain claimed the achievement as validation of Greenwich Observatory's primacy, while France actively downplayed the event out of national pride, and most histories of globalization skip the unglamorous mechanics of clock coordination entirely.",
+  "why_it_matters": "Every airline schedule, stock market transaction, internet protocol timestamp, and GPS satellite depends on the standardized time zone system Fleming championed. Without coordinated global time, synchronized telecommunications, international shipping logistics, and the digital economy as we know them would be structurally impossible \u2014 all traceable to one frustrated traveler's missed train.",
+  "entry_number": 43,
+  "date_added": "2026-07-26"
+}
