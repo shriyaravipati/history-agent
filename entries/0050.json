@@ -1,0 +1,16 @@
+{
+  "title": "The Earthquake That Invented Seismology",
+  "date": "November 1, 1755",
+  "location": "Portugal (Lisbon)",
+  "era": "Early Modern",
+  "topic_tags": [
+    "natural disaster",
+    "Enlightenment philosophy",
+    "scientific method"
+  ],
+  "event_summary": "On All Saints' Day 1755, a catastrophic earthquake, tsunami, and firestorm destroyed Lisbon, killing roughly 60,000 people in one of Europe's wealthiest capitals. In the aftermath, the Marquis de Pombal ordered parish priests across Portugal to systematically document the earthquake's effects using a standardized questionnaire \u2014 asking about timing, aftershocks, water behavior, and building damage in every village. This bureaucratic act created the first empirical seismological dataset in history, effectively inventing the scientific study of earthquakes.",
+  "why_forgotten": "The disaster itself is known to specialists, but Pombal's questionnaire \u2014 the 'Pombaline Inquiry' \u2014 is rarely credited as a founding moment of modern earth science. Pombal's later authoritarian rule and expulsion of the Jesuits made him a controversial figure, and his scientific legacy was overshadowed by political narratives. Additionally, Voltaire's famous philosophical response to the quake in 'Candide' captured cultural memory, eclipsing the actual empirical work done on the ground.",
+  "why_it_matters": "Pombal's systematic survey established the template for how governments respond to natural disasters with data collection rather than purely theological interpretation, prefiguring modern emergency management agencies like FEMA. The questionnaire's methodology \u2014 standardized questions distributed across a geographic area to triangulate a natural phenomenon \u2014 became foundational to seismology and influenced how scientists study earthquakes to this day. It also marked a pivotal philosophical shift: the disaster and its rational aftermath helped propel Enlightenment thinkers to reject divine punishment as an explanation for natural events, reshaping Western thought about science, religion, and state responsibility.",
+  "entry_number": 50,
+  "date_added": "2026-08-02"
+}
