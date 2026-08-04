@@ -1,0 +1,16 @@
+{
+  "title": "The Postmaster Who Invented the Internet's Ancestor",
+  "date": "October 1832",
+  "location": "Saint Petersburg, Russia",
+  "era": "Early Modern",
+  "topic_tags": [
+    "telecommunications",
+    "infrastructure",
+    "Russia"
+  ],
+  "event_summary": "Baron Pavel Schilling, a Baltic German diplomat and inventor in Russian service, demonstrated the world's first practical electromagnetic telegraph to Tsar Nicholas I in his Saint Petersburg apartment. Using a system of six magnetized needles deflected by electrical current sent through wires, Schilling transmitted coded messages across a room, then across buildings, proving that information could travel instantaneously over wire. The Russian government commissioned him to build a telegraph line connecting Peterhof Palace to Kronstadt naval base, but Schilling died in 1837 before completing it.",
+  "why_forgotten": "Samuel Morse's later telegraph, patented in 1837 and commercially deployed in 1844, became the dominant Western narrative of telegraphy's invention. Schilling's earlier demonstration was buried by Cold War-era Western historiography reluctant to credit Russian innovation, and Soviet historians paradoxically underemphasized him because he was a Baltic German aristocrat, not fitting the proletarian invention narrative they preferred.",
+  "why_it_matters": "Schilling's needle telegraph directly inspired Carl Friedrich Gauss and Wilhelm Weber's 1833 telegraph in G\u00f6ttingen, and through them the entire European electromagnetic telegraph movement that preceded Morse. His core insight \u2014 that coded electrical impulses over wire could replace physical message-carrying \u2014 established the foundational principle underlying every subsequent communications network, from the transatlantic cable to the fiber-optic backbone of the modern internet. The very concept of instant long-distance digital communication traces its first practical proof to his 1832 demonstration.",
+  "entry_number": 52,
+  "date_added": "2026-08-04"
+}
