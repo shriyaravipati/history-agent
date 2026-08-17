@@ -1,0 +1,16 @@
+{
+  "title": "The Astronomer Who Measured the Earth's Tilt",
+  "date": "June 19, 240 BC",
+  "location": "Syene and Alexandria, Ptolemaic Egypt",
+  "era": "Ancient",
+  "topic_tags": [
+    "astronomy",
+    "geodesy",
+    "ancient science"
+  ],
+  "event_summary": "Eratosthenes of Cyrene, the chief librarian of Alexandria, used the shadow cast by a vertical stick at noon on the summer solstice in Alexandria\u2014compared to the shadowless well at Syene (modern Aswan)\u2014to calculate the Earth's circumference with stunning accuracy, arriving at roughly 39,375 kilometers (the true value is 40,075 km). He accomplished this using nothing more than geometry, a hired walker to measure the distance between the two cities, and the angle of a single shadow. In doing so, he proved the Earth was a measurable sphere centuries before any human circumnavigated it.",
+  "why_forgotten": "His original treatise 'On the Measurement of the Earth' was lost when the Library of Alexandria declined, and medieval European scholars largely abandoned Greek spherical-earth calculations in favor of flat or unknowable-earth cosmologies. By the time Renaissance thinkers rediscovered the concept, credit was often diffused among many ancient Greeks, and the specific ingenuity of his solstice experiment\u2014conducted by a librarian, not an explorer\u2014lacked the drama that history books favored.",
+  "why_it_matters": "Eratosthenes' measurement is the intellectual foundation of all geodesy, cartography, and satellite navigation\u2014every GPS device on Earth depends on precise knowledge of the planet's circumference that traces back to his method. His experiment also established the principle that global-scale phenomena can be deduced from small, local observations, a cornerstone of modern scientific reasoning that underpins everything from climate modeling to gravitational wave detection.",
+  "entry_number": 65,
+  "date_added": "2026-08-17"
+}
