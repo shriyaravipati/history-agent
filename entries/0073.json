@@ -1,0 +1,16 @@
+{
+  "title": "The Midwife Who Proved Handwashing Saves Lives",
+  "date": "May 1847",
+  "location": "Vienna, Austrian Empire",
+  "era": "Modern",
+  "topic_tags": [
+    "medicine",
+    "public health",
+    "germ theory"
+  ],
+  "event_summary": "Hungarian physician Ignaz Semmelweis, working at Vienna General Hospital's First Obstetrical Clinic, noticed that midwife-staffed wards had dramatically lower maternal death rates than doctor-staffed ones. He traced the difference to doctors performing autopsies before delivering babies without washing their hands, and on May 15, 1847, he instituted a mandatory chlorinated lime handwashing policy that slashed maternal mortality from roughly 18% to under 2% within months.",
+  "why_forgotten": "The Viennese medical establishment, led by prominent obstetricians like Carl Braun, rejected and ridiculed Semmelweis's findings because they implied that doctors themselves were killing patients \u2014 an intolerable affront to professional honor. Semmelweis was dismissed from the hospital, eventually suffered a mental breakdown, and died in an asylum in 1865, beaten by guards. His work was largely buried until Pasteur and Lister independently validated germ theory decades later.",
+  "why_it_matters": "Semmelweis's handwashing protocol was the first empirical proof that invisible pathogens spread disease through contact, predating formal germ theory by nearly two decades. His tragic story became the foundational cautionary tale in medical ethics about institutional resistance to evidence \u2014 now called the 'Semmelweis reflex.' Every hospital handwashing station, every surgical scrub protocol, and every pandemic hygiene campaign descends directly from his ignored discovery.",
+  "entry_number": 73,
+  "date_added": "2026-08-25"
+}
