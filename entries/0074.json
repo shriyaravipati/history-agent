@@ -1,0 +1,16 @@
+{
+  "title": "The Refugee Who Invented Arabic Numerals",
+  "date": "825 AD",
+  "location": "Baghdad, Abbasid Caliphate (modern Iraq)",
+  "era": "Medieval",
+  "topic_tags": [
+    "mathematics",
+    "knowledge transfer",
+    "cultural exchange"
+  ],
+  "event_summary": "In approximately 825 AD, the Persian mathematician Muhammad ibn Musa al-Khwarizmi, whose family had fled from Khwarezm (modern Uzbekistan) to Baghdad, completed his treatise 'On the Calculation with Hindu Numerals.' The work systematically adapted the Indian decimal place-value system\u2014including the revolutionary concept of zero as a placeholder\u2014into Arabic, making it accessible across the vast Abbasid intellectual network. He wrote it at the House of Wisdom under Caliph al-Ma'mun, presenting the system not as abstract theory but as a practical tool for merchants, tax collectors, and engineers.",
+  "why_forgotten": "When the numerals later entered Europe through Latin translations in the 12th century, they were simply called 'Arabic numerals,' erasing both al-Khwarizmi's specific role and the Indian mathematicians who originated the system. His name survives only as the etymological ghost behind the word 'algorithm,' a connection most people never make. The broader narrative of Islamic Golden Age scholarship was systematically minimized in European historiography, which preferred to trace intellectual lineage directly from Greece to Renaissance Italy.",
+  "why_it_matters": "Every digital transaction, every line of computer code, every scientific calculation on Earth uses the positional decimal system that al-Khwarizmi translated and popularized. Without his specific decision to frame Indian numerals as a practical commercial tool rather than a philosophical curiosity, their adoption across the medieval trading world\u2014and eventual displacement of Roman numerals\u2014might have taken centuries longer. The word 'algorithm,' derived from the Latinization of his name 'Algoritmi,' now describes the invisible logic governing artificial intelligence, social media feeds, and global finance.",
+  "entry_number": 74,
+  "date_added": "2026-08-26"
+}
