@@ -1,0 +1,16 @@
+{
+  "title": "The Nurse Who Defeated Yellow Fever",
+  "date": "August 1881",
+  "location": "Havana, Cuba",
+  "era": "Modern",
+  "topic_tags": [
+    "epidemiology",
+    "tropical medicine",
+    "Caribbean history"
+  ],
+  "event_summary": "Cuban physician Carlos Finlay presented his revolutionary hypothesis to the Havana Academy of Sciences that yellow fever was transmitted not by miasma or contact, but by the bite of a specific mosquito, Aedes aegypti. He had spent years studying the disease patterns among Havana's diverse population, meticulously tracking cases through neighborhoods and correlating them with mosquito breeding sites. He even conducted controlled inoculation experiments on volunteers using mosquitoes he had fed on infected patients, producing mild immunizing infections.",
+  "why_forgotten": "When the US Army's Walter Reed Commission confirmed mosquito transmission in 1900, American narratives largely credited Reed and his team, marginalizing Finlay's two decades of prior work. Colonial dynamics ensured that a Cuban scientist's contributions were subordinated to an American military hero's legacy. For generations, English-language textbooks taught Reed as the discoverer, while Finlay's foundational research remained known mainly in Latin American medical circles.",
+  "why_it_matters": "Finlay's mosquito-vector theory fundamentally transformed tropical medicine and made possible the completion of the Panama Canal, which had been abandoned by the French largely because of yellow fever deaths. His framework for understanding insect-borne disease transmission became the model for combating malaria, dengue, and Zika, shaping global public health infrastructure that persists today. Every modern mosquito-control program and vector-borne disease strategy traces its intellectual lineage to his 1881 presentation in Havana.",
+  "entry_number": 78,
+  "date_added": "2026-08-30"
+}
