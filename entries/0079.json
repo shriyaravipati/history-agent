@@ -1,0 +1,16 @@
+{
+  "title": "The Weaver Who Invented Binary Code",
+  "date": "1725",
+  "location": "Lyon, France",
+  "era": "Early Modern",
+  "topic_tags": [
+    "computing",
+    "textiles",
+    "information_theory"
+  ],
+  "event_summary": "Basile Bouchon, a textile worker in Lyon's silk district, created a loom that used a roll of perforated paper to automate the weaving of complex patterns. Each hole or absence of a hole instructed a needle to rise or fall \u2014 encoding design information in a binary on/off system. His assistant Jean-Baptiste Falcon refined it in 1728 with linked punch cards, and Joseph-Marie Jacquard later perfected the mechanism in 1804, but the foundational leap was Bouchon's.",
+  "why_forgotten": "Bouchon was a low-status artisan in a guild-dominated trade, and his invention was overshadowed first by Falcon and then spectacularly by Jacquard, whose name became synonymous with the technology. The Jacquard loom is sometimes mentioned in computing histories, but Bouchon himself \u2014 the person who first encoded information as holes in a medium \u2014 is almost never credited. Textile history and computing history developed as separate disciplines, leaving Bouchon in neither narrative.",
+  "why_it_matters": "Bouchon's perforated paper was the first stored program \u2014 a physical medium encoding instructions that a machine could read automatically. Charles Babbage explicitly studied Jacquard's descendant technology when designing his Analytical Engine, and Herman Hollerith adapted punch cards for the 1890 U.S. Census, creating the company that became IBM. Every modern computer's fundamental logic of binary encoding traces a direct lineage back to a silk weaver's workshop in Lyon.",
+  "entry_number": 79,
+  "date_added": "2026-08-31"
+}
