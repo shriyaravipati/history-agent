@@ -1,0 +1,16 @@
+{
+  "title": "The Diver Who Invented Underwater Archaeology",
+  "date": "November 1900",
+  "location": "Antikythera, Greece",
+  "era": "Modern",
+  "topic_tags": [
+    "archaeology",
+    "technology",
+    "ancient computing"
+  ],
+  "event_summary": "Greek sponge diver Elias Stadiatis, working off the tiny island of Antikythera, surfaced in a panic describing 'a heap of dead naked people' on the seafloor \u2014 a Roman-era shipwreck laden with bronze and marble statues. Among the barnacle-encrusted haul recovered by his crew over the following months was a corroded lump of bronze gears that sat unexamined in Athens' National Museum for decades. That lump turned out to be the Antikythera Mechanism, a 2,000-year-old analog computer that could predict eclipses, track planetary motion, and model the Olympic calendar with a sophistication not seen again until 14th-century European clocks.",
+  "why_forgotten": "For over fifty years the mechanism was dismissed as an anachronistic impossibility \u2014 scholars simply refused to believe ancient Greeks could have built a geared computing device, so it languished in a museum drawer. The sponge divers who risked their lives (two died, two were paralyzed from the bends) were working-class men whose contribution was quickly overshadowed by the academic establishment. The wreck itself predated the entire discipline of underwater archaeology, so no proper methodology existed to document or credit the discovery.",
+  "why_it_matters": "The Antikythera Mechanism fundamentally rewrote the history of technology, proving that complex mechanical computation existed two millennia before the Scientific Revolution and forcing historians to reconsider what ancient civilizations were capable of building. Its discovery pioneered systematic underwater archaeology, eventually leading to international laws protecting submerged heritage and inspiring technologies like sonar mapping and deep-sea robotics. Today it remains a touchstone in the history of computing \u2014 researchers studying its gear trains have drawn direct conceptual lines from its design philosophy to modern algorithmic thinking.",
+  "entry_number": 82,
+  "date_added": "2026-09-03"
+}
