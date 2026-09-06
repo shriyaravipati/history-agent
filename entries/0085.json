@@ -1,0 +1,16 @@
+{
+  "title": "The Sailor Who Invented Global Time",
+  "date": "November 1884",
+  "location": "Washington, D.C., United States (but driven by events in New Zealand)",
+  "era": "Modern",
+  "topic_tags": [
+    "timekeeping",
+    "colonialism",
+    "infrastructure"
+  ],
+  "event_summary": "In 1868, New Zealand became the first country in the world to adopt a single national standard time, set at 11 hours and 30 minutes ahead of Greenwich Mean Time, largely through the persistent lobbying of sea captain William Cargill and colonial surveyor Charles Hursthouse. They argued that New Zealand's scattered coastal settlements, dependent on shipping schedules and telegraph coordination, desperately needed synchronized clocks. Their success became the quiet proof-of-concept that persuaded delegates at the 1884 International Meridian Conference in Washington to adopt global standard time zones anchored to the Greenwich meridian.",
+  "why_forgotten": "New Zealand's early adoption is overshadowed by the narrative crediting Sandford Fleming, the Canadian railway engineer, as the sole visionary behind global standard time. The colonial periphery's role in pioneering the system is rarely acknowledged because metropolitan histories preferred crediting the great powers who ratified it. Small-nation innovations in the British Empire were routinely absorbed into imperial achievement.",
+  "why_it_matters": "Every time zone on Earth, every airline schedule, every stock market opening bell, and every coordinated internet protocol traces back to the standardization principle that New Zealand proved workable sixteen years before the world adopted it. Without a small colony demonstrating that an entire nation could synchronize its clocks to a single meridian-based offset, the 1884 conference delegates would have lacked a real-world model, and the chaotic patchwork of local solar times might have persisted decades longer into the age of telegraphs and railways.",
+  "entry_number": 85,
+  "date_added": "2026-09-06"
+}
