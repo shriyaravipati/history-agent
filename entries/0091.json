@@ -1,0 +1,16 @@
+{
+  "title": "The Clockmaker Who Conquered Longitude",
+  "date": "1736-1761",
+  "location": "England",
+  "era": "Early Modern",
+  "topic_tags": [
+    "navigation",
+    "horology",
+    "maritime technology"
+  ],
+  "event_summary": "John Harrison, a self-educated carpenter and clockmaker from rural Lincolnshire with no formal training, spent decades building a series of revolutionary marine chronometers (H1 through H4) that could keep accurate time at sea despite the rolling, temperature swings, and humidity of ocean voyages. His final masterpiece, the H4, a pocket-watch-sized device tested on a voyage to Jamaica in 1761, lost only five seconds over 81 days \u2014 a precision that stunned the scientific establishment. This single device solved the longitude problem that had killed tens of thousands of sailors and sunk countless ships over centuries.",
+  "why_forgotten": "The Board of Longitude, dominated by astronomers like Nevil Maskelyne who championed a rival celestial-observation method, refused for years to award Harrison the promised \u00a320,000 prize, discrediting his work and delaying recognition. Because Harrison was a working-class tradesman without university credentials, the Royal Society largely dismissed him, and history books typically credit the Age of Exploration to captains and admirals rather than the instrument makers who made it possible. His story was largely forgotten until Dava Sobel's 1995 book revived public interest.",
+  "why_it_matters": "Accurate longitude measurement transformed global shipping from a deadly gamble into a reliable system, enabling the explosion of international trade, colonial expansion, and naval power that shaped the modern world order. Harrison's work established the principle that precision timekeeping underpins navigation \u2014 a concept that runs directly through to today's GPS satellites, which are essentially atomic clocks in orbit whose signals solve the same geometric problem Harrison first cracked with springs and gears. His struggle also became a landmark case in the politics of scientific credit, illustrating how institutional bias against outsiders can suppress transformative innovation.",
+  "entry_number": 91,
+  "date_added": "2026-09-12"
+}
