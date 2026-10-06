@@ -1,0 +1,16 @@
+{
+  "title": "The Mathematician Who Invented the Algorithm",
+  "date": "c. 820 AD",
+  "location": "Baghdad, Abbasid Caliphate (modern Iraq)",
+  "era": "Medieval",
+  "topic_tags": [
+    "mathematics",
+    "computing",
+    "Islamic Golden Age"
+  ],
+  "event_summary": "Muhammad ibn Musa al-Khwarizmi, a Persian scholar working in Baghdad's House of Wisdom under Caliph al-Ma'mun, completed his treatise 'Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala.' The book didn't merely compile existing mathematics \u2014 it systematized a revolutionary method of solving equations through repeatable, step-by-step logical procedures. Crucially, al-Khwarizmi also wrote a separate treatise introducing Hindu-Arabic numerals to the Islamic world, replacing cumbersome Roman and Babylonian systems with the place-value decimal notation that would eventually reach Europe.",
+  "why_forgotten": "When his works were translated into Latin in the 12th century, European scholars Latinized his name to 'Algoritmi' and the discipline of 'algebra' was stripped of its origins, absorbed into a narrative of European mathematical progress. Colonial-era historiography systematically minimized Arab and Persian intellectual contributions, framing the Islamic Golden Age as merely a 'preservation' effort rather than a creative revolution. Most Western students learn algebra and algorithms without ever hearing al-Khwarizmi's name or understanding that these concepts were invented, not inherited.",
+  "why_it_matters": "Every computer program, search engine query, social media feed, and artificial intelligence system on Earth runs on algorithms \u2014 the very concept whose name derives directly from al-Khwarizmi. His algebraic methods became the foundational grammar of modern science, engineering, and economics, making him arguably the single most influential intellectual ancestor of the digital age. The decimal numeral system he popularized is now used by virtually every human civilization, making his 9th-century Baghdad treatise one of the most consequential documents ever written.",
+  "entry_number": 115,
+  "date_added": "2026-10-06"
+}
