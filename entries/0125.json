@@ -1,0 +1,16 @@
+{
+  "title": "The Peasant Who Invented Modern Weather Forecasting",
+  "date": "November 1854",
+  "location": "France",
+  "era": "Modern",
+  "topic_tags": [
+    "meteorology",
+    "infrastructure",
+    "science"
+  ],
+  "event_summary": "After a devastating storm destroyed French and British warships in the Black Sea during the Crimean War, astronomer Urbain Le Verrier was tasked by Napoleon III to investigate whether the storm could have been predicted. Le Verrier gathered weather observations from across Europe and traced the storm's path backward, proving it had traveled predictably from the northwest over two days. By February 1855, he had convinced the French government to establish the world's first national storm warning service using telegraph networks, creating the template for every modern weather bureau on Earth.",
+  "why_forgotten": "The storm is remembered only as a minor footnote to the Crimean War, overshadowed by Florence Nightingale and the Charge of the Light Brigade. Le Verrier himself is known almost exclusively for his prediction of Neptune's existence, and his meteorological revolution is rarely credited to him. Weather forecasting is now so ubiquitous that people forget it had to be invented at all, and that it emerged not from scientific curiosity but from a military disaster.",
+  "why_it_matters": "Le Verrier's system proved that weather moves in trackable patterns across vast distances, directly spawning the International Meteorological Organization in 1873, the ancestor of today's World Meteorological Organization. Every hurricane warning, every flight plan, every agricultural forecast descends from his 1854 proof-of-concept. The entire global infrastructure of weather prediction, worth trillions in economic value annually, traces its origin to a French astronomer reverse-engineering a single Black Sea storm.",
+  "entry_number": 125,
+  "date_added": "2026-10-16"
+}
