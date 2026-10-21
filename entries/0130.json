@@ -1,0 +1,16 @@
+{
+  "title": "The Engineer Who Invented Earthquake-Proof Architecture",
+  "date": "1693",
+  "location": "Sicily, Italy",
+  "era": "Early Modern",
+  "topic_tags": [
+    "architecture",
+    "seismic engineering",
+    "disaster recovery"
+  ],
+  "event_summary": "After the catastrophic Val di Noto earthquake of January 11, 1693, which killed over 60,000 people and leveled dozens of cities across southeastern Sicily, a Jesuit-trained mathematician and architect named Giovanni Battista Vaccarini and his predecessors in the reconstruction effort developed a revolutionary building technique called 'baraccata.' This system used internal wooden lattice frames embedded within masonry walls, creating flexible structures that could absorb seismic shocks rather than crumble. The rebuilt cities of Noto, Catania, and Ragusa became living laboratories of anti-seismic design, constructed under the direction of engineers like Carlos de Grunenbergh and Fra' Angelo Italia who codified rules mandating wider streets, reinforced walls, and lower building heights.",
+  "why_forgotten": "The reconstruction was attributed primarily to Baroque aesthetic achievement rather than engineering innovation, so art historians eclipsed the structural scientists. Colonial-era Western engineering narratives centered seismic science on 18th-century Lisbon and 19th-century Japan, skipping Sicily's earlier contributions. The baraccata technique was practiced by local builders who rarely published treatises, leaving their knowledge embedded in walls rather than in libraries.",
+  "why_it_matters": "The baraccata system is now recognized as a direct ancestor of modern earthquake-resistant timber-frame construction, and UNESCO studies of surviving Sicilian structures have influenced contemporary seismic retrofitting standards worldwide. Japan's traditional wooden architecture and modern base-isolation technology share conceptual DNA with these Sicilian innovations. Every modern building code requiring flexible structural cores over rigid walls echoes decisions made in the rubble of 17th-century Sicily.",
+  "entry_number": 130,
+  "date_added": "2026-10-21"
+}
