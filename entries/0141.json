@@ -1,0 +1,16 @@
+{
+  "title": "The Locksmith Who Invented Modern Cryptography",
+  "date": "1467",
+  "location": "Florence, Republic of Florence (modern Italy)",
+  "era": "Early Modern",
+  "topic_tags": [
+    "cryptography",
+    "Renaissance",
+    "information security"
+  ],
+  "event_summary": "Leon Battista Alberti, already renowned as an architect and humanist, presented to the papal secretariat a revolutionary cipher disk\u2014a device with two concentric alphabetic wheels that enabled polyalphabetic encryption, replacing every previous system that used a single substitution alphabet. His treatise 'De componendis cifris,' written around 1467, described for the first time in documented history a method of shifting cipher alphabets mid-message, making frequency analysis nearly useless against properly encrypted text. The papal curia quietly adopted his system for diplomatic correspondence, giving the Vatican an intelligence advantage over European rivals for decades.",
+  "why_forgotten": "Alberti is remembered primarily as an architect and Renaissance polymath; his cryptographic work was classified by the Vatican and circulated only among a small circle of papal cipher secretaries. The treatise was not widely published until centuries later, by which time Blaise de Vigen\u00e8re received credit for popularizing polyalphabetic ciphers, and Alberti's foundational role was eclipsed in popular memory.",
+  "why_it_matters": "Every modern encryption system\u2014from SSL certificates protecting online banking to end-to-end messaging encryption\u2014descends conceptually from the polyalphabetic principle Alberti introduced. His insight that security depends on constantly shifting the relationship between plaintext and ciphertext remains the philosophical foundation of cryptographic key systems. Without this leap, the entire architecture of digital privacy and secure communications would look fundamentally different.",
+  "entry_number": 141,
+  "date_added": "2026-11-01"
+}
