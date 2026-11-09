@@ -1,0 +1,16 @@
+{
+  "title": "The Accountant Who Invented Double-Entry Bookkeeping",
+  "date": "1340",
+  "location": "Genoa, Republic of Genoa (modern Italy)",
+  "era": "Medieval",
+  "topic_tags": [
+    "accounting",
+    "capitalism",
+    "financial infrastructure"
+  ],
+  "event_summary": "In 1340, the treasurers of the Commune of Genoa produced the earliest known complete double-entry bookkeeping ledgers, systematically recording every transaction with matching debits and credits across interconnected accounts. This was not a theoretical exercise but a practical innovation driven by Genoa's complex web of Mediterranean trade, public debt management, and colonial revenues spanning from the Black Sea to North Africa. Though Luca Pacioli would later codify and popularize the method in 1494, the anonymous Genoese municipal accountants had already built a fully functioning system that could track the financial obligations of an entire city-state.",
+  "why_forgotten": "Pacioli's 1494 printed treatise became the canonical reference, erasing the memory of the Genoese originators who left no famous name attached to their innovation. The ledgers themselves sat in Genoa's state archives for centuries, studied only by a handful of accounting historians. The idea that faceless municipal clerks rather than a Renaissance polymath invented modern finance lacks narrative appeal.",
+  "why_it_matters": "Double-entry bookkeeping is arguably the invisible engine of capitalism itself \u2014 Werner Sombart called it one of the most important inventions in human history. Every modern corporation, bank, government budget, and cryptocurrency ledger operates on the same debit-credit logic those Genoese clerks formalized nearly 700 years ago. Without this system, the concepts of profit, loss, shareholder equity, and financial accountability as we know them would not exist.",
+  "entry_number": 149,
+  "date_added": "2026-11-09"
+}
