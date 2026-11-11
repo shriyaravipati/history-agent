@@ -1,0 +1,16 @@
+{
+  "title": "The Sailor Who Invented Global Time Zones",
+  "date": "February 8, 1879",
+  "location": "Canada",
+  "era": "Modern",
+  "topic_tags": [
+    "timekeeping",
+    "railroads",
+    "globalization"
+  ],
+  "event_summary": "Sandford Fleming, a Scottish-born Canadian railway engineer who had missed a train in Ireland due to a confusing local timetable in 1876, presented his formal proposal for worldwide standard time zones to the Royal Canadian Institute on February 8, 1879. His system divided the globe into 24 equal longitudinal zones, each offset by one hour, replacing the chaotic patchwork of over 100 local solar times used across North America alone. After years of tireless lobbying, his framework was adopted at the International Meridian Conference in Washington in 1884, though it took decades more for individual nations to comply.",
+  "why_forgotten": "Fleming is largely unknown outside Canada because the 1884 conference is usually credited to anonymous diplomatic consensus rather than any single advocate. British and American narratives emphasized the Greenwich meridian's selection as the prime meridian\u2014a matter of imperial prestige\u2014rather than the underlying system of hourly zones that Fleming had championed. His contribution was also overshadowed by his more visible legacy as chief engineer of the Canadian Pacific Railway.",
+  "why_it_matters": "Every clock on every phone, every international flight schedule, every coordinated financial transaction, and the entire architecture of global computing synchronization descends from Fleming's 24-zone framework. Without standardized time zones, the synchronized global economy\u2014from stock market opens to satellite communications\u2014would be functionally impossible. His system also laid the conceptual groundwork for Coordinated Universal Time (UTC), which today underpins the internet itself.",
+  "entry_number": 151,
+  "date_added": "2026-11-11"
+}
