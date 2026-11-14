@@ -1,0 +1,16 @@
+{
+  "title": "The Diver Who Invented Underwater Archaeology",
+  "date": "November 1900",
+  "location": "Antikythera, Greece",
+  "era": "Modern",
+  "topic_tags": [
+    "archaeology",
+    "technology",
+    "ancient computing"
+  ],
+  "event_summary": "Greek sponge diver Elias Stadiatis, sheltering from a storm near the tiny island of Antikythera, descended to the seafloor and discovered a Roman-era shipwreck filled with bronze statues and marble. Among the corroded artifacts recovered over the following months was an unassuming lump of bronze gears that captain Dimitrios Kontos and archaeologist Valerios Stais would eventually recognize as a sophisticated mechanical device \u2014 the Antikythera Mechanism, a 2,000-year-old analog computer capable of predicting eclipses and tracking celestial cycles. It was the single most complex technological artifact known from the ancient world, predating anything comparable by over a millennium.",
+  "why_forgotten": "For decades after its recovery, mainstream classicists dismissed the mechanism as too advanced to be genuinely ancient, or assumed it was a medieval intrusion into the wreck. The corroded fragments sat largely unstudied in the National Archaeological Museum in Athens, and Stais's early identification of gear trains was ridiculed by peers who believed Greeks incapable of such precision engineering. Only with X-ray tomography in the early 2000s did its full complexity become undeniable.",
+  "why_it_matters": "The Antikythera Mechanism fundamentally rewrote the history of technology, proving that ancient civilizations possessed mechanical computing capabilities previously thought impossible before the Renaissance. It demonstrated that an entire tradition of complex geared machinery existed in the Hellenistic world and was lost \u2014 raising profound questions about technological regression and what other innovations vanished with the ancient world. Its discovery also pioneered underwater archaeology as a discipline and inspired modern research into analog computation and the deep roots of scientific instrumentation.",
+  "entry_number": 154,
+  "date_added": "2026-11-14"
+}
