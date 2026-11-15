@@ -1,0 +1,16 @@
+{
+  "title": "The Convict Who Invented Modern Fingerprinting",
+  "date": "July 1858",
+  "location": "Hooghly district, Bengal, British India",
+  "era": "Modern",
+  "topic_tags": [
+    "forensic science",
+    "colonial administration",
+    "identity verification"
+  ],
+  "event_summary": "William James Herschel, a young British colonial magistrate in Jungipore, Bengal, asked a local contractor named Rajyadhar Konai to press his handprint onto the back of a contract to deter him from later denying the agreement. This improvised act \u2014 born not from science but from Herschel's desperate need to prevent rampant fraud and impersonation among people he couldn't visually distinguish \u2014 led him to obsessively collect prints for the next twenty years. By 1877, he had built a systematic registry of fingerprints used to verify pensioners' identities at the Hooghly collectorate, proving that prints were unique and permanent across decades.",
+  "why_forgotten": "Credit was later fiercely contested between Herschel and Sir Francis Galton (who systematized classification) and Argentine police official Juan Vucetich (who achieved the first criminal conviction using prints in 1892). Herschel's decades of quiet, unglamorous clerical work in a provincial Indian district lacked the drama historians preferred, and the essential role of Indian subjects whose prints built the entire dataset was almost entirely erased from the narrative.",
+  "why_it_matters": "Herschel's Bengali experiment is the direct ancestor of every biometric identity system on Earth \u2014 from FBI databases to India's Aadhaar program covering 1.4 billion people to the fingerprint sensor on modern smartphones. His accidental discovery that the human body itself could serve as an unforgeable credential created the conceptual foundation for modern identity verification, border security, and digital authentication, reshaping the relationship between individuals and the state in ways still intensely debated today.",
+  "entry_number": 155,
+  "date_added": "2026-11-15"
+}
