@@ -1,0 +1,16 @@
+{
+  "title": "The Nun Who Invented Computer Programming",
+  "date": "1842-1843",
+  "location": "Turin, Italy and London, England",
+  "era": "Modern",
+  "topic_tags": [
+    "computing",
+    "translation",
+    "mathematics"
+  ],
+  "event_summary": "In 1842, Italian mathematician Luigi Menabrea published a French-language paper describing Charles Babbage's Analytical Engine after a Turin lecture. Ada Lovelace, tasked with translating it into English, appended a set of detailed notes three times longer than the original paper, including what is now recognized as the first published computer algorithm \u2014 a step-by-step method for the Engine to compute Bernoulli numbers. She also articulated the radical concept that a computing machine could manipulate symbols of any kind, not just numbers, anticipating general-purpose computing by a full century.",
+  "why_forgotten": "Victorian society dismissed the idea that a woman \u2014 particularly an aristocrat known mainly as Lord Byron's daughter \u2014 could contribute meaningfully to mathematics. Babbage's Engine was never built, so her algorithm remained purely theoretical and was filed away as a curiosity. For over a century, credit for early computing ideas was given almost exclusively to Babbage, and Lovelace's notes were rediscovered only when historians reexamined the origins of computer science in the mid-20th century.",
+  "why_it_matters": "Lovelace's insight that machines could process not just calculations but any symbolic system \u2014 music, text, logic \u2014 is the foundational concept behind every modern computer, smartphone, and AI system. Her algorithm established the principle that software is distinct from hardware, a separation that defines the entire computing industry today. The U.S. Department of Defense named its Ada programming language after her in 1980, but her deeper philosophical contributions to what machines can and cannot do remain underappreciated even among computer scientists.",
+  "entry_number": 163,
+  "date_added": "2026-11-23"
+}
