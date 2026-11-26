@@ -1,0 +1,16 @@
+{
+  "title": "The Astronomer Who Invented Decimal Fractions",
+  "date": "1427",
+  "location": "Samarkand, Timurid Empire (modern Uzbekistan)",
+  "era": "Medieval",
+  "topic_tags": [
+    "mathematics",
+    "astronomy",
+    "Central Asia"
+  ],
+  "event_summary": "Jamsh\u012bd al-K\u0101sh\u012b, working at Ulugh Beg's observatory in Samarkand, completed his treatise 'Mift\u0101\u1e25 al-\u1e24is\u0101b' (The Key of Arithmetic), in which he systematically introduced decimal fractions as a fully developed computational tool, using them to calculate pi to sixteen decimal places \u2014 a record of precision unmatched for nearly two centuries. He demonstrated that decimal notation could replace the cumbersome sexagesimal system inherited from Babylonian astronomy, making complex calculations accessible to engineers, merchants, and surveyors. His work was immediately adopted at the observatory, transforming how astronomical tables were computed across the Islamic world.",
+  "why_forgotten": "Al-K\u0101sh\u012b died suddenly in 1429, and the Samarkand observatory was destroyed after Ulugh Beg's assassination in 1449, scattering its intellectual legacy. European mathematicians like Simon Stevin, who popularized decimal fractions in 1585, received nearly all the credit, as Latin-language historiography rarely traced ideas back through Persian-language scholarship. The Timurid intellectual tradition was overshadowed by narratives focusing on Mongol destruction rather than Central Asian scientific flourishing.",
+  "why_it_matters": "Every modern calculator, spreadsheet, currency system, and scientific measurement relies on decimal fractions as their foundational notation \u2014 the system al-K\u0101sh\u012b perfected. His demonstration that decimals could replace older fractional systems made modern engineering, finance, and physics computationally feasible. Without the conceptual leap he codified, the Scientific Revolution's reliance on precise numerical calculation would have been dramatically slower to develop.",
+  "entry_number": 166,
+  "date_added": "2026-11-26"
+}
